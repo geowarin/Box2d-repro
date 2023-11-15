@@ -1,24 +1,69 @@
 [gd_scene load_steps=4 format=3 uid="uid://bbplbsq5ieqv3"]
 
 [ext_resource type="Script" path="res://main.gd" id="1_hbtp5"]
+[ext_resource type="PackedScene" uid="uid://uk5qsy25y1p0" path="res://ball.tscn" id="2_f41uj"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h4r6u"]
 size = Vector2(1176, 35)
-
-[sub_resource type="CircleShape2D" id="CircleShape2D_gjx45"]
-radius = 20.0
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_hbtp5")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(0, 60)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(582, 420.5)
+position = Vector2(587, 389)
 shape = SubResource("RectangleShape2D_h4r6u")
 
-[node name="Ball" type="RigidBody2D" parent="."]
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(521, 370)
+rotation = 1.5708
+shape = SubResource("RectangleShape2D_h4r6u")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Ball"]
-position = Vector2(560, 70)
-shape = SubResource("CircleShape2D_gjx45")
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(767, 363)
+rotation = 1.5708
+shape = SubResource("RectangleShape2D_h4r6u")
+
+[node name="Ball" parent="." instance=ExtResource("2_f41uj")]
+position = Vector2(577, 378)
+
+[node name="Ball2" parent="." instance=ExtResource("2_f41uj")]
+position = Vector2(618, 377)
+
+[node name="Ball5" parent="." instance=ExtResource("2_f41uj")]
+position = Vector2(597, 344)
+
+[node name="Ball6" parent="." instance=ExtResource("2_f41uj")]
+position = Vector2(635, 344)
+
+[node name="Ball7" parent="." instance=ExtResource("2_f41uj")]
+position = Vector2(677, 344)
+
+[node name="Ball8" parent="." instance=ExtResource("2_f41uj")]
+position = Vector2(658, 312)
+
+[node name="Ball9" parent="." instance=ExtResource("2_f41uj")]
+position = Vector2(621, 312)
+
+[node name="Ball3" parent="." instance=ExtResource("2_f41uj")]
+position = Vector2(658, 377)
+
+[node name="Ball4" parent="." instance=ExtResource("2_f41uj")]
+position = Vector2(697, 377)
+
+[node name="Ball10" parent="." instance=ExtResource("2_f41uj")]
+position = Vector2(560, 412)
+
+[node name="Ball11" parent="." instance=ExtResource("2_f41uj")]
+position = Vector2(601, 411)
+
+[node name="Ball12" parent="." instance=ExtResource("2_f41uj")]
+position = Vector2(641, 411)
+
+[node name="Ball13" parent="." instance=ExtResource("2_f41uj")]
+position = Vector2(680, 411)
+
+[node name="Ball14" parent="." instance=ExtResource("2_f41uj")]
+position = Vector2(718, 410)

@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://uk5qsy25y1p0"]
+
+[ext_resource type="Script" path="res://Ball.gd" id="1_vt53h"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_gjx45"]
+radius = 20.0
+
+[node name="Ball" type="RigidBody2D"]
+position = Vector2(563, 115)
+max_contacts_reported = 10
+contact_monitor = true
+script = ExtResource("1_vt53h")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_gjx45")
+
+[node name="Text" type="Label" parent="."]
+offset_left = -1.0
+offset_top = -6.0
+offset_right = 39.0
+offset_bottom = 17.0
+text = "toto"

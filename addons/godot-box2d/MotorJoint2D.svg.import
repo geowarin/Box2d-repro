@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bttoyawd64cow"
-path="res://.godot/imported/MotorJoint2D.svg-a2624920f849b25150377ac84bceb34a.ctex"
+uid="uid://jj1eotfehak1"
+path="res://.godot/imported/MotorJoint2D.svg-1eb7b660986a4d880f6f3457871bcaab.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/godot-box2d/MotorJoint2D.svg"
-dest_files=["res://.godot/imported/MotorJoint2D.svg-a2624920f849b25150377ac84bceb34a.ctex"]
+source_file="res://addons-9.X/godot-box2d/MotorJoint2D.svg"
+dest_files=["res://.godot/imported/MotorJoint2D.svg-1eb7b660986a4d880f6f3457871bcaab.ctex"]
 
 [params]
 

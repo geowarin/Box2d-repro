@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d3pksqsfkd2f4"
-path="res://.godot/imported/MouseJoint2D.svg-b210c36615339302f0901be05767d335.ctex"
+uid="uid://c1u1ya43n0omv"
+path="res://.godot/imported/MouseJoint2D.svg-8742bcd6c503823f0aefd401a4472e2c.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/godot-box2d/MouseJoint2D.svg"
-dest_files=["res://.godot/imported/MouseJoint2D.svg-b210c36615339302f0901be05767d335.ctex"]
+source_file="res://addons-9.X/godot-box2d/MouseJoint2D.svg"
+dest_files=["res://.godot/imported/MouseJoint2D.svg-8742bcd6c503823f0aefd401a4472e2c.ctex"]
 
 [params]
 

@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://55mxm770ooy"
-path="res://.godot/imported/PulleyJoint2D.svg-58b5716ddf26b9451cda935263ff2e8f.ctex"
+uid="uid://co75ecvikx88d"
+path="res://.godot/imported/PulleyJoint2D.svg-2a4370dcc189070b02d0f7ba9a9c33fd.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/godot-box2d/PulleyJoint2D.svg"
-dest_files=["res://.godot/imported/PulleyJoint2D.svg-58b5716ddf26b9451cda935263ff2e8f.ctex"]
+source_file="res://addons-9.X/godot-box2d/PulleyJoint2D.svg"
+dest_files=["res://.godot/imported/PulleyJoint2D.svg-2a4370dcc189070b02d0f7ba9a9c33fd.ctex"]
 
 [params]
 

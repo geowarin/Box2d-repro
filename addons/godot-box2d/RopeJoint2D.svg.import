@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b52lk0uk8qsov"
-path="res://.godot/imported/RopeJoint2D.svg-324cde9198a9a75d95b60c97aa26293c.ctex"
+uid="uid://dn4yhthnp5pv6"
+path="res://.godot/imported/RopeJoint2D.svg-dc887935763d033579e28e89dd177caf.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/godot-box2d/RopeJoint2D.svg"
-dest_files=["res://.godot/imported/RopeJoint2D.svg-324cde9198a9a75d95b60c97aa26293c.ctex"]
+source_file="res://addons-9.X/godot-box2d/RopeJoint2D.svg"
+dest_files=["res://.godot/imported/RopeJoint2D.svg-dc887935763d033579e28e89dd177caf.ctex"]
 
 [params]
 
